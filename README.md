@@ -1,4 +1,4 @@
-# Hi, I'm Geddy 👋
+# Hi, I'm Geddy Dukes
 
 AI and ML Systems Engineer focused on building fast, reliable, production-grade AI systems from first principles.
 
@@ -6,9 +6,9 @@ I implement research papers, train models from scratch, and ship real systems th
 
 ---
 
-## 🚀 Featured Projects
+## Featured Projects
 
-### 🤖 Machine Learning and Deep Learning
+### Machine Learning and Deep Learning
 
 <table>
 <tr>
@@ -41,7 +41,7 @@ I implement research papers, train models from scratch, and ship real systems th
 </tr>
 </table>
 
-### 🏗️ AI Infrastructure and Frameworks
+### AI Infrastructure and Frameworks
 
 <table>
 <tr>
@@ -72,7 +72,7 @@ I implement research papers, train models from scratch, and ship real systems th
 </tr>
 </table>
 
-### 🎵 Production Systems
+### Production Systems
 
 <table>
 <tr>
@@ -131,14 +131,14 @@ Real-Time Systems • Distributed Architectures
 
 ## 💡 What I'm Working On
 
-- 🧠 Continual learning systems
-- 🎥 Multimodal world models
-- 🔐 AI governance and auditability
-- 📚 Long-horizon memory architectures
+- Continual learning systems
+- Multimodal world models
+- AI governance and auditability
+- Long-horizon memory architectures
 
 ---
 
-## 🎯 About Me
+## About Me
 
 I build AI systems by understanding them from the ground up. My experience in finance showed me where AI breaks in real-world, regulated environments, so I focus on systems that are transparent, auditable, and reliable.
 
@@ -167,7 +167,7 @@ I build AI systems by understanding them from the ground up. My experience in fi
 - 📧 [geddydukes@gmail.com](mailto:geddydukes@gmail.com)
 - 🌐 [Geddydukes.com](https://Geddydukes.com)
 - 💼 [LinkedIn](https://linkedin.com/in/geddy-dukes)
-- 🐦 [Twitter/X](https://twitter.com/surrealGeddyD)
+- 🐦 [Twitter/X](https://twitter.com/Geddydukes)
 
 **Open to:**
 - ML Research Engineering
