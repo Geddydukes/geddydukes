@@ -155,7 +155,7 @@ I build AI systems by understanding them from the ground up. My experience in fi
 - Trained full transformer models from scratch
 
 **Education:**
-- M.S. Analytics, Georgia Tech (2026)
+- M.S. Analytics, Georgia Tech (Starting 2026)
 - B.S. Computer Science, WGU (2026)
 - B.S. Business Administration, WGU (2024)
 - Software Engineering Immersive, General Assembly (2020)
