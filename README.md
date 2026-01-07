@@ -57,6 +57,23 @@ I implement research papers, train models from scratch, and ship real systems th
 **Tech:** Python, FastAPI, Docker, PostgreSQL
 
 </td>
+
+</td>
+<td width="50%">
+
+#### [agentbench](https://github.com/Geddydukes/agentbench)
+**Open-source agent evaluation framework**
+
+- Async runner with retries and rate limiting
+- Composite judges and lifecycle hooks
+- Trace logging, JSONL artifacts, and HTML reporting
+- Designed for benchmarking LLM and tool-using agents
+
+**Tech:** Python, AsyncIO, Jinja2
+
+</td>
+</tr>
+
 <td width="50%">
 
 #### [Feather Agent](https://github.com/Geddydukes/feather-agent)
