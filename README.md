@@ -61,7 +61,7 @@ I implement research papers, train models from scratch, and ship real systems th
 </td>
 <td width="50%">
 
-#### [agentbench](https://github.com/Geddydukes/agentbench)
+#### [agentFT](https://github.com/Geddydukes/agentbench)
 **Open-source agent evaluation framework**
 
 - Async runner with retries and rate limiting
