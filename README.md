@@ -8,9 +8,9 @@ From training language models from scratch on consumer hardware to building deci
 
 ---
 
-## 🚀 Featured Projects
+## Featured Projects
 
-### 🧠 [TinyLLM](https://github.com/Geddydukes/tiny_llm)
+### [TinyLLM](https://github.com/Geddydukes/tiny_llm)
 **Language model trained from scratch under extreme compute constraints**
 
 A 67M-parameter transformer trained end-to-end on a 24GB Mac Mini to explore the efficient frontier of small models.
@@ -21,7 +21,7 @@ A 67M-parameter transformer trained end-to-end on a 24GB Mac Mini to explore the
 
 **Tech:** PyTorch, NumPy, Transformers
 
-### 🏛️ [Policy & Claims Decision Engine](https://github.com/Geddydukes/Policy-and-Claims-Decision-Engine)
+### [Policy & Claims Decision Engine](https://github.com/Geddydukes/Policy-and-Claims-Decision-Engine)
 **Deterministic decision system for regulated workflows**
 
 A neuro-symbolic engine designed for high-precision audit and insurance workflows, where correctness and explainability matter more than model confidence.
@@ -32,7 +32,7 @@ A neuro-symbolic engine designed for high-precision audit and insurance workflow
 
 **Tech:** Python, FastAPI, Pydantic, Docker
 
-### 🔍 [Research Discovery Agent](https://github.com/Geddydukes/Research_Agent)
+### [Research Discovery Agent](https://github.com/Geddydukes/Research_Agent)
 **Provenance-tracked knowledge graph system**
 
 A neuro-symbolic research discovery system that prioritizes truthfulness and citation over fluency.
@@ -43,7 +43,7 @@ A neuro-symbolic research discovery system that prioritizes truthfulness and cit
 
 **Tech:** TypeScript, Node.js, PostgreSQL, Gemini 2.5
 
-### ⚖️ [agentFT](https://github.com/Geddydukes/agent-ft)
+### [agentFT](https://github.com/Geddydukes/agent-ft)
 **Agent reliability and evaluation framework**
 
 An open-source framework for treating agent behavior like testable software.
@@ -56,7 +56,7 @@ An open-source framework for treating agent behavior like testable software.
 
 ---
 
-## 🛠️ Technical Focus
+## Technical Focus
 
 | Domain | Technologies |
 | :--- | :--- |
@@ -67,7 +67,7 @@ An open-source framework for treating agent behavior like testable software.
 
 ---
 
-## 💡 Engineering Philosophy
+## Engineering Philosophy
 
 I treat AI outputs as **inputs to systems**, not answers to users.
 
@@ -78,7 +78,7 @@ My work follows three principles:
 
 ---
 
-## 🎓 Background
+## Background
 
 - **Production Systems:** Built and maintained fintech and decision systems with strict correctness, auditability, and latency requirements.
 - **ML Research Engineering:** Implemented and trained models from research papers (JEPA, CPC, transformers) end-to-end.
@@ -91,10 +91,10 @@ My work follows three principles:
 
 ---
 
-## 📫 Connect
+## Connect
 
-- 📧 [geddydukes@gmail.com](mailto:geddydukes@gmail.com)
-- 💼 [LinkedIn](https://linkedin.com/in/geddy-dukes)
-- 🌐 [Geddydukes.com](https://geddydukes.com)
+- [geddydukes@gmail.com](mailto:geddydukes@gmail.com)
+- [LinkedIn](https://linkedin.com/in/geddy-dukes)
+- [Geddydukes.com](https://geddydukes.com)
 
 **Open to:** ML Systems Engineering, Applied AI, and Full Stack roles.
