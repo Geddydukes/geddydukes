@@ -1,228 +1,100 @@
-# Hi, I'm Geddy Dukes
+# Hi, I’m Geddy Dukes
 
-AI and ML Systems Engineer focused on building fast, reliable, production-grade AI systems from first principles.
+**AI & ML Systems Engineer** building reliable, production-grade AI systems from first principles.
 
-I implement research papers, train models from scratch, and ship real systems that run on consumer hardware.
+I specialize in systems that combine **probabilistic machine learning with deterministic decision logic**. My work focuses on making AI **auditable, debuggable, and correct**, especially in real-world and regulated environments where hallucinations and silent failures are unacceptable.
+
+From training language models from scratch on consumer hardware to building decision engines and compliance systems, I build AI that survives contact with production.
 
 ---
 
-## Featured Projects
+## 🚀 Featured Projects
 
-### Machine Learning and Deep Learning
+### 🧠 [TinyLLM](https://github.com/Geddydukes/tiny_llm)
+**Language model trained from scratch under extreme compute constraints**
 
-<table>
-<tr>
-<td width="50%">
+A 67M-parameter transformer trained end-to-end on a 24GB Mac Mini to explore the efficient frontier of small models.
+- **Architecture:** Implemented GPT-style architecture with **RoPE, RMSNorm, and SwiGLU**.
+- **Performance:** Achieved **93.94% exact-match accuracy** on natural language → CLI command generation.
+- **Reliability:** Designed **continual learning** with replay buffers and regression gating to prevent degradation.
+- **Infrastructure:** Custom Apple Silicon (MPS) optimization for consumer hardware training.
 
-#### [TinyLLM](https://github.com/Geddydukes/tiny_llm)
-**67M-parameter transformer trained from scratch**
+**Tech:** PyTorch, NumPy, Transformers
 
-- GPT-style architecture with RoPE, RMSNorm, SwiGLU
-- **93.94% accuracy** on CLI command generation
-- Continual learning with replay buffers and safety gating 
-- Trained entirely on a 24GB Mac Mini
+### 🏛️ [Policy & Claims Decision Engine](https://github.com/Geddydukes/Policy-and-Claims-Decision-Engine)
+**Deterministic decision system for regulated workflows**
 
-**Tech:** PyTorch, Transformers, MPS
+A neuro-symbolic engine designed for high-precision audit and insurance workflows, where correctness and explainability matter more than model confidence.
+- **Architecture:** Decoupled the "extraction layer" (LLM) from the "decision layer" (Deterministic) to ensure 100% auditability.
+- **Safety:** Implemented strict **Pydantic** validation layers that flag ambiguous data for human review rather than guessing.
+- **Traceability:** Produces fully traceable explanations for every decision outcome, suitable for compliance audits.
+- **Hybrid Design:** ML-assisted classification feeds symbolic decision logic without leaking uncertainty.
 
-</td>
-<td width="50%">
+**Tech:** Python, FastAPI, Pydantic, Docker
 
-#### [World Model POC](https://github.com/Geddydukes/world-model-poc)
-**Multimodal self-supervised learning**
+### 🔍 [Research Discovery Agent](https://github.com/Geddydukes/Research_Agent)
+**Provenance-tracked knowledge graph system**
 
-- Implemented JEPA, CPC, CLIP
-- Episodic memory with semantic search
-- Automated nightly training for video and audio
-- Validated on CLEVRER
+A neuro-symbolic research discovery system that prioritizes truthfulness and citation over fluency.
+- **Auditability:** Enforces **100% provenance**—every extracted node links directly to a source citation.
+- **Quality Control:** Validation pipeline automatically rejects low-confidence claims (<75%) before graph ingestion.
+- **Scale:** Extracted **119 entities and 187 relationships** into a structured, queryable knowledge graph.
+- **Interface:** Interactive graph UI with drill-down into claims, confidence, and source context.
 
-**Tech:** PyTorch, ViTs, Contrastive Learning
+**Tech:** TypeScript, Node.js, PostgreSQL, Gemini 2.5
 
-</td>
-</tr>
-</table>
+### ⚖️ [agentFT](https://github.com/Geddydukes/agent-ft)
+**Agent reliability and evaluation framework**
 
-### AI Infrastructure and Frameworks
-
-<table>
-<tr>
-<td width="50%">
-
-#### [Hydra SDK](https://github.com/Geddydukes/Hydra_SDK)
-**Neuro-symbolic reasoning for enterprise governance**
-
-- Symbolic + LLM hybrid architecture
-- Cryptographic audit trails
-- Control plane + on-prem runtime
-
-**Tech:** Python, FastAPI, Docker, PostgreSQL
-
-</td>
-
-</td>
-<td width="50%">
-
-#### [agentFT](https://github.com/Geddydukes/agentbench)
-**Open-source agent evaluation framework**
-
-- Async runner with retries and rate limiting
-- Composite judges and lifecycle hooks
-- Trace logging, JSONL artifacts, and HTML reporting
-- Designed for benchmarking LLM and tool-using agents
+An open-source framework for treating agent behavior like testable software.
+- **Verification:** Task and scenario abstractions with **deterministic verification** adapters.
+- **Resilience:** Async execution with retries, fail-fast modes, and rate limiting.
+- **Observability:** Composite judging, trace logging, and JSONL/HTML artifacts for deep failure analysis.
+- **Goal:** Designed to detect regressions and measure improvement over time.
 
 **Tech:** Python, AsyncIO, Jinja2
 
-</td>
-</tr>
+---
 
-<td width="50%">
+## 🛠️ Technical Focus
 
-#### [Feather Agent](https://github.com/Geddydukes/feather-agent)
-**Open-source agent runtime**
-
-- Provider-agnostic orchestration
-- Transparent execution flows
-- Published on npm, used by developers
-
-**Tech:** TypeScript, Node.js, Vercel AI SDK
-
-</td>
-</tr>
-</table>
-
-### Production Systems
-
-<table>
-<tr>
-<td width="50%">
-
-#### [Audio Routing Simulator](https://github.com/Geddydukes/Audio_routing_sim)
-**Real-time audio classification and routing**
-
-- Hybrid ML and rule-based engine
-- Sub-20ms latency
-- Secure plugin system
-
-**Tech:** Python, FastAPI, WebSocket
-
-</td>
-<td width="50%">
-
-#### [Financial Analysis Platform](https://github.com/Geddydukes/FinancialAnalysisTool)
-**Production fintech system**
-
-- Real-time metrics engine
-- RBAC, audit logging, compliance
-- Processes millions in loan volume
-
-**Tech:** Next.js, TypeScript, PostgreSQL, Supabase
-
-</td>
-</tr>
-</table>
+| Domain | Technologies |
+| :--- | :--- |
+| **Machine Learning** | PyTorch, Transformers, Self-Supervised Learning, Continual Learning, MPS Optimization |
+| **AI Systems** | RAG, Vector Search, Neuro-Symbolic Reasoning, Multi-Agent Orchestration |
+| **Evaluation** | Regression Gating, Deterministic Verification, Trace Logging, Failure Analysis |
+| **Engineering** | Python, TypeScript, Node.js, FastAPI, PostgreSQL, Redis, Docker, AWS |
 
 ---
 
-## 🛠️ Tech Stack
+## 💡 Engineering Philosophy
 
-**Machine Learning & AI**
-```
-PyTorch • Transformers • Self-Supervised Learning • Continual Learning
-Vision Transformers • RAG • Vector Search
-Agent Frameworks • On-Device Optimization
-```
+I treat AI outputs as **inputs to systems**, not answers to users.
 
-**Engineering & Infrastructure**
-```
-Python • TypeScript • Node.js • React • Next.js
-PostgreSQL • Redis • Docker • FastAPI
-AWS • Vercel • CI/CD • Git
-```
-
-**Specializations**
-```
-Memory-Mapped Data • Gradient Optimization
-Real-Time Systems • Distributed Architectures
-```
+My work follows three principles:
+1. **First Principles:** Understand the math, training dynamics, and failure modes beneath abstractions.
+2. **Constraint-Driven Design:** Efficiency forces discipline in architecture, data pipelines, and evaluation.
+3. **Auditability Over Fluency:** In real systems, a traceable answer beats a confident one every time.
 
 ---
 
-## 💡 What I'm Working On
+## 🎓 Background
 
-- Continual learning systems
-- Multimodal world models
-- AI governance and auditability
-- Long-horizon memory architectures
+- **Production Systems:** Built and maintained fintech and decision systems with strict correctness, auditability, and latency requirements.
+- **ML Research Engineering:** Implemented and trained models from research papers (JEPA, CPC, transformers) end-to-end.
+- **Open Source:** Published and maintain agent runtimes and evaluation frameworks used in real systems.
 
----
-
-## About Me
-
-I build AI systems by understanding them from the ground up. My experience in finance showed me where AI breaks in real-world, regulated environments, so I focus on systems that are transparent, auditable, and reliable.
-
-**I care about:**
-- Clear reasoning and reproducibility
-- First-principles engineering
-- Efficiency under constraints
-- Making research ideas work in production
-
-**Experience:**
-- Built fintech systems processing millions
-- Implemented JEPA, CPC, CLIP from papers
-- Published open-source agent runtime
-- Trained full transformer models from scratch
-
-**Education:**
-- M.S. Analytics, Georgia Tech (Starting 2026)
-- B.S. Computer Science, WGU (2026)
-- B.S. Business Administration, WGU (2024)
-- Software Engineering Immersive, General Assembly (2020)
+**Education**
+- **M.S. Analytics (Computational Data)**, Georgia Tech *(Expected 2027)*
+- **B.S. Business Administration**, WGU *(2024)*
+- **Software Engineering Immersive**, General Assembly *(2020)*
 
 ---
 
-## 📫 Let's Connect
+## 📫 Connect
 
 - 📧 [geddydukes@gmail.com](mailto:geddydukes@gmail.com)
-- 🌐 [Geddydukes.com](https://Geddydukes.com)
 - 💼 [LinkedIn](https://linkedin.com/in/geddy-dukes)
-- 🐦 [Twitter/X](https://twitter.com/Geddydukes)
+- 🌐 [Geddydukes.com](https://geddydukes.com)
 
-**Open to:**
-- ML Research Engineering
-- Applied AI Engineering
-- Founding Engineer roles
-- AI systems architecture consulting
-- Software Engineer
-- AI Product Manager
-
----
-
-## 🏆 Highlights
-
-```python
-class GeddyDukes:
-    def __init__(self):
-        self.role = "AI and ML Systems Engineer"
-        self.location = "San Francisco Bay Area"
-
-    def achievements(self):
-        return [
-            "Trained transformer from scratch on Mac Mini",
-            "Published open-source agent framework",
-            "Built fintech systems handling millions",
-            "Implemented multiple research papers",
-            "93.94% accuracy on domain NLP"
-        ]
-
-    def philosophy(self):
-        return "Build from first principles. Ship to production."
-```
-
----
-
-<p align="center">
-  <i>⭐ Star the repos if they inspire you</i>
-</p>
-
-<p align="center">
-  <sub>Built in the Bay Area</sub>
-</p>
+**Open to:** ML Systems Engineering, Applied AI, and Full Stack roles.
