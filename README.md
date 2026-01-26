@@ -21,7 +21,7 @@ A 67M-parameter transformer trained end-to-end on a 24GB Mac Mini to explore the
 
 **Tech:** PyTorch, NumPy, Transformers
 
-### [Policy & Claims Decision Engine](https://github.com/Geddydukes/Policy-and-Claims-Decision-Engine)
+### [Policy & Claims Decision Engine](https://github.com/Geddydukes/Policy-and-Claims-Processing-Decision-Engine)
 **Deterministic decision system for regulated workflows**
 
 A neuro-symbolic engine designed for high-precision audit and insurance workflows, where correctness and explainability matter more than model confidence.
