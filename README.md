@@ -43,7 +43,7 @@ A neuro-symbolic research discovery system that prioritizes truthfulness and cit
 
 **Tech:** TypeScript, Node.js, PostgreSQL, Gemini 2.5
 
-### [agentFT](https://github.com/Geddydukes/agent-ft)
+### [agentFT](https://github.com/Geddydukes/agentflowtest)
 **Agent reliability and evaluation framework**
 
 An open-source framework for treating agent behavior like testable software.
